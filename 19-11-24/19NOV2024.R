@@ -12,7 +12,7 @@ tuesdata <- tt_load("2024-11-19")
 
 episode_metrics <- tuesdata$episode_metrics
 
-view(episode_metrics)
+#view(episode_metrics)
 skim(episode_metrics) |> view()
 
 # Plot aesthetics
